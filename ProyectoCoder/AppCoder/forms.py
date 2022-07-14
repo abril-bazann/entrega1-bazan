@@ -13,4 +13,4 @@ class Artista_form(forms.Form):
 class Album_form(forms.Form):
     nombre_album=forms.CharField(max_length=50)
     creador=forms.CharField(max_length=50)
-    año=forms.CharField(max_length=50)
+    año=forms.IntegerField()
