@@ -6,18 +6,19 @@ from django.template import Context, Template, loader
 from datetime import datetime
 from AppCoder.forms import Playlist_form, Artista_form, Album_form
 
-def profesores(request):
-    return render (request, "AppCoder/profesores.html")
+def album(request):
+    return render (request, "AppCoder/album.html")
 
-def estudiantes(request):
-    return render(request, "AppCoder/estudiantes.html")
+def artista(request):
+    return render(request, "AppCoder/artista.html")
 
-def entregables(request):
-    return render (request, "AppCoder/entregables.html")
-#PLAYLIST
+def playlist(request):
+    return render (request, "AppCoder/playlist.html")
+
 def inicio(request):
     return render (request, "AppCoder/inicio.html")
 
+#PLAYLIST
 def playlist_formulario(request):
     if (request.method=="POST"):
         form=Playlist_form(request.POST)
