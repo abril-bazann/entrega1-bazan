@@ -2,6 +2,7 @@
 ## Funcionalidad y pruebas del Proyecto
 Para probarlo lo primero que se debe hacer es:
 1. En la consola de VSC (Command Prompt), colocar: "python manage.py runserver" para que el servidor empiece a correr el proyecto. 
+2. Iniciar sesión en Django Administrator con el User: abril_bazan y la Password: R5yMS41jO1P2
 
 ## Creación de formularios (api form Django)
  Un formulario es una vista que permite poder agregar datos a nuestro model directamente desde nuestra web. El archivo html correspondiente recibe la información que le enviamos por medio de la vista y su template asociado. Al apretar un botón (Submit) esa información viaja por medio de un método GET o POST y llega al servidor, donde esos datos se manipulan.
